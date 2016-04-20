@@ -1,0 +1,57 @@
+body {
+	font-family: 'Ubuntu', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.content > .container,
+.articles > .container {
+	max-width: 900px;
+}
+
+.content {
+	padding: 48px 0;
+}
+
+.content header {
+	margin-bottom: 42px;
+}
+
+.content h2 {
+	margin: 0;
+}
+
+.content article p {
+	font-size: 20px;
+	text-align: justify;
+}
+
+.comments {
+	margin-top: 44px;
+}
+
+.form input[type="text"],
+.form textarea {
+	width: 60%;
+}
+
+.articles {
+	padding: 48px 0;
+	background: #eee;
+}
+
+.articles h3 {
+	margin-top: 0;
+}
+
+@media (max-width: 992px) {
+
+	.articles {
+		padding: 0;
+	}
+	.articles .article {
+		margin: 28px 0;
+	}
+	.form input[type="text"],
+	.form textarea {
+		width: 100%;
+	}
+}
